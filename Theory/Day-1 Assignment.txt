@@ -1,0 +1,55 @@
+Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML
+,XML, XSLT, and other structured code formats via content assis
+
+
+Q. Difference between a Library and Framework?
+
+Put simply, the “Inversion of Control” (IoC) describes the difference between a library and a framework. 
+In some ways, we can think of a framework as a collection of libraries, but it’s entirely different. 
+By using a library, you control the flow of the program. The library can be invoked whenever and wherever you like. 
+Contrary to this, when you use a framework, the flow is controlled by the framework. The framework instructs you where 
+to put your code, but it will call your code as required. Simply put, our code calls the library’s code, but in a framework, 
+it’s the framework’s code that calls our code
+
+Q. What is CDN? Why do we use it?
+Data travels through the internet via a network of cables.CDN's main aim is to virtually shorten the physical distance, to improve 
+site rendering speed and performance.CDN stores a cached version of it's content in multiple geographical locations (Point of presence, which is stragetically 
+planned). If someone tried to access our website from Spain, it will be a lot quicker if it is fulfilled from the local POP rather than from India.
+
+Q.Why is React known as React?
+React is named React because of it's ability to react to changes in data.With every change, React component
+changes and React will automatically re-render the components to reflect the new data.
+
+Q. What is crossorigin in script tag?
+CrossOrigin attribute sets the mode of the request to be HTTP CORS request.
+CrossOrigin request is a request for a resource from other domain. CORS is Cross Origin Resource Sharing,
+a mechanism which allows a resource on one domain to be accessed by another domain. 
+	<script crossorigin="anonymous|use-credentials"> 
+	CrossOrigin = 'anonymous' -> request is performed, no credentials were sent.
+	CrossOrigin = 'use-credentials' -> request is performed, credentials were sent.
+
+Q. What is diference between React and ReactDOM?
+The react package holds the react source for components, state, props and all the code that is react.
+
+The react-dom package as the name implies is the glue between React and the DOM.
+Why separate them?
+
+The reason React and ReactDOM were split into two libraries was due to the arrival of React Native 
+(A react platform for mobile development).
+
+React components are such a great way to organize UI that it has now spread to mobile to react is used 
+in web and in mobile. React-dom is used only in web apps.
+
+Q. What is difference between react.development.js and react.production.js files via CDN?
+Development build is used for development reasons but the prod bulid is used on the client's machine.
+What separates the two is our preference and requirement.
+
+Q. What is async and defer?
+Both async and defer script begins to download without pausing HTML parser, the real difference lies in 
+the execution, async and defer downloads the file during parsing but async pauses the parser to execute
+once download is completed whereas defer waits for HTML parser to complete and then proceeds to exceute the
+downloaded files. 
+
+*Defer gives the guarantee to execute requests in the order as they'd appeared in the file/code.
+
+https://i.stack.imgur.com/wfL82.png (Check this image for a detailed explanation)
